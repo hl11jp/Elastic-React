@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  color: yellow;
+}
+
+.header--items li{
+  display: inline;
+  padding: 0 1em;
+}
+
+.header--items li a {
+  text-decoration: none;
+}
+
+.header--items li a:active {
+  color: yellow;
+}
